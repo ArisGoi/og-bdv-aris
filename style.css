@@ -51,3 +51,22 @@ body{
     padding: 15px;
     border-radius: 20px;
 }
+
+@media screen and (min-width: 768px){
+    body{
+        background-image: url("imgs/bg-image-desktop.webp");
+    }
+    .container{
+        max-width: 900px;
+        flex-direction: row;
+        gap: 0;
+    }
+    .testo{
+        margin: 0;
+        width: 50%;
+    }
+    .qr-box{
+        width: 30%;
+    }
+    
+}
