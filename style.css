@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 body{
     overflow: hidden;
     min-height: 100vh;
