@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Unbounded&display=swap" rel="stylesheet">
 
     <!-- MANIFEST -->
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="site.webmanifest">
 </head>
 <body>
     <div class="container">
@@ -32,17 +32,5 @@
             <img src="imgs/qr-code.svg" alt="qr code">
         </div>
     </div>
-
-    <script>
-        if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-            navigator.serviceWorker.register('service-worker.js').then(function(registration) {
-            console.log('Service Worker registered with scope:', registration.scope);
-            }, function(error) {
-            console.log('Service Worker registration failed:', error);
-            });
-        });
-        }
-    </script>
 </body>
 </html>
